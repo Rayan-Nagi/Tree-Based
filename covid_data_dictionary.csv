@@ -1,0 +1,21 @@
+﻿Variable Name,Definition,Additional Notes
+Row_ID,Identifier for each individual row/record within the dataset. ,"The values under this variable are not continuous or fixed, and are unique to this dataset; they should not be relied on to reference a case or record over time or for linking with other data."
+Accurate_Episode_Date,The field uses a number of dates entered in the Integrated Public Health Information System (iPHIS) to provide an approximation of onset date.,Blank records may exist where a Public Health Unit outside of the Integrated Public Health Information System (iPHIS) did not include an episode date value.
+Case_Reported_Date,The date that the case was reported to the local public health unit (PHU).,
+Test_Reported_Date,The test reported date as indicated on the laboratory slip.,
+Specimen_Date,"Set to the earliest specimen date on record for the case, as indicated on the laboratory slip.",
+Age_Group,Age group of the patient.,"Patient ages are clustered in 10-year intervals (20s, 30s, 40s, etc.), except for those less than 20-years-old, who are recorded as ""<20"", and patients with ages not known or recorded, listed as ""Unknown""."
+Client_Gender,Gender information of the patient.,"Values Include:  'FEMALE', 'MALE', 'GENDER DIVERSE', and 'UNSPECIFIED'"
+Case_AcquisitionInfo,"Suspected method of exposure to COVID-19, if known.","As of June 17, 2020, values include: ‘CC’ (close contact), ‘No Epi-link’ (no epidemiological link, i.e., community spread), ‘No Info-Missing’, ‘No Info-Unknown’, ‘OB’ (outbreak), ‘Travel’
+
+As of October 6, 2020, values include: ‘CC’ (close contact), ‘Missing Information’, ‘No known epi link’, ‘OB’ (outbreak), ‘Travel’, 'Unspecified epi link'"
+Outcome1,Patient outcome.,"Values include: Resolved, Not Resolved, Fatal."
+Outbreak_Related,Describes whether a confirmed positive case is linked to an outbreak of COVID-19 in any institutional setting.,"A confirmed positive case that is associated with a COVID-19 outbreak in an institution (i.e., long-term care home, retirement home, hospital, group home, shelter, correctional facility, other) will be marked as 'Yes'."
+Reporting_PHU_ID,Public Health Unit (PHU) ID where confirmed positive case occurred.,
+Reporting_PHU,Public Health Unit (PHU) where confirmed positive case occurred.,"For a list of Ontario's Public Health Units, please visit: http://www.health.gov.on.ca/en/common/system/services/phu/locations.aspx"
+Reporting_PHU_Address,Official physical street address of Public Health Unit (PHU).,"This variable does not indicate the specfic physical address of where a confirmed positive case occurred, it refers only to the official address of the Public Health Unit (PHU)."
+Reporting_PHU_City,Official city of Public Health Unit (PHU).,"This variable does not indicate the specfic city where a confirmed positive case occurred, it refers only to the official address of the Public Health Unit (PHU)."
+Reporting_PHU_Postal_Code,Official postal code of Public Health Unit (PHU).,"This variable does not indicate the specfic postal code where a confirmed positive case occurred, it refers only to the official postal code of the Public Health Unit (PHU)."
+Reporting_PHU_Website,Official website of Public Health Unit (PHU).,
+Reporting_PHU_Latitude,Latitude of Public Health Unit (PHU) physical address for mapping purposes.,"This variable does not indicate the specfic coordinates where a confirmed positive case occurred, it refers only to the mapping coordinates of the Public Health Unit (PHU)'s official physical address."
+Reporting_PHU_Longitude,Longitude of Public Health Unit (PHU) physical address for mapping purposes.,"This variable does not indicate the specfic coordinates where a confirmed positive case occurred, it refers only to the mapping coordinates of the Public Health Unit (PHU)'s official physical address."
