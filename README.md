@@ -10,9 +10,9 @@ Wheat Seeds and Covid-19 Outcomes in Ontario.
 
 
 ## Datasets
-**Wheat Seeds:** This small dataset is the UCI Seeds Data set (https://archive.ics.uci.edu/ml/datasets/seeds). The examined group comprised kernels belonging to three different varieties of wheat: Kama, Rosa and Canadian. These are the labels. There are 70 elements for each variety of wheat, randomly selected for the experiment. The dataset is provided in a txt file format.
+- **Wheat Seeds:** This small dataset is the UCI Seeds Data set (https://archive.ics.uci.edu/ml/datasets/seeds). The examined group comprised kernels belonging to three different varieties of wheat: Kama, Rosa and Canadian. These are the labels. There are 70 elements for each variety of wheat, randomly selected for the experiment. The dataset is provided in a txt file format.
 
-**Covid-19 Outcomes in Ontario:** Dataset 2 is about the confirmed COVID-19 cases in Ontario. A subset of this data is provided. The original data comes from the following file “Confirmed positive cases of COVID19 in Ontario” at: https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario. This project
+- **Covid-19 Outcomes in Ontario:** Dataset 2 is about the confirmed COVID-19 cases in Ontario. A subset of this data is provided. The original data comes from the following file “Confirmed positive cases of COVID19 in Ontario” at: https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario. This project
 is using the features age group, gender, case acquisition info, city, outbreak, latitude, and longitude. The feature outcome1 is the label, it can have 3 values; Fatal, Resolved, or Not resolved.
 
 
