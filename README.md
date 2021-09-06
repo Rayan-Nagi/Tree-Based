@@ -6,14 +6,14 @@ Wheat Seeds and Covid-19 Outcomes in Ontario.
 ## Specific Objectives
 - Load datasets and perform some exploratory plots.
 - Application on the use of classification algorithms: decision tree, random forest,and XGBoost.
-- Performance comparison and evaluation of the three approaches
+- Performance comparison and evaluation of the three approaches.
 
 
 ## Datasets
 **Wheat Seeds:** This small dataset is the UCI Seeds Data set (https://archive.ics.uci.edu/ml/datasets/seeds). The examined group comprised kernels belonging to three different varieties of wheat: Kama, Rosa and Canadian. These are the labels. There are 70 elements for each variety of wheat, randomly selected for the experiment. The dataset is provided in a txt file format.
 
 **Covid-19 Outcomes in Ontario:** Dataset 2 is about the confirmed COVID-19 cases in Ontario. A subset of this data is provided. The original data comes from the following file “Confirmed positive cases of COVID19 in Ontario” at: https://data.ontario.ca/dataset/confirmed-positive-cases-of-covid-19-in-ontario. This project
-is using the features age group, gender, case acquisition info, city, outbreak, latitude, and longitude. The feature outcome1 is the label, it can have 3 values; Fatal, Resolved, or Not resolved
+is using the features age group, gender, case acquisition info, city, outbreak, latitude, and longitude. The feature outcome1 is the label, it can have 3 values; Fatal, Resolved, or Not resolved.
 
 
 ## Implementation
@@ -28,11 +28,11 @@ is using the features age group, gender, case acquisition info, city, outbreak, 
 - Examine the final resulting splitting rules used for the trees and highlight interesting patterns that explain the data.
 
 ### Random Forest:
-- Number of trees: {5, 10, 50, 150, 200}
-- Max depth: {3, 5, 10, None}
+- Number of trees: {5, 10, 50, 150, 200}.
+- Max depth: {3, 5, 10, None}.
 - Plot the mean accuricies in a Heat Plot for different values of number of trees and maximum depth.
 
 ### Gradient Tree Boosting
-- Use GradientBoostingClassifier on SKLearn
-- Number of estimators: {5, 10, 50, 150, 200}
-- plot the mean accuracy versus the number of estimators.
+- Use GradientBoostingClassifier on SKLearn.
+- Number of estimators: {5, 10, 50, 150, 200}.
+- Plot the mean accuracy versus the number of estimators.
