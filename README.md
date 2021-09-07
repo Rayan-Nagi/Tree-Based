@@ -1,4 +1,4 @@
-# Tree-Based Classifiers
+# Tree-Based Classifiers and Ensambles
 Application and performance evaluation for three tree-based classifiers: Decision Trees, Random Forests, and Gradient Tree Boosting, on two different datasets; 
 Wheat Seeds and Covid-19 Outcomes in Ontario.
 
